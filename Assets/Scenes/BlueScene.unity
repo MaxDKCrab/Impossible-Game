@@ -455,7 +455,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3813659930749790219, guid: 6f7f84b5fc4767b418f7eb337923e72a, type: 3}
       propertyPath: m_Name
-      value: DeathhCube
+      value: DeathCube
       objectReference: {fileID: 0}
     - target: {fileID: 3813659930749790704, guid: 6f7f84b5fc4767b418f7eb337923e72a, type: 3}
       propertyPath: m_RootOrder
