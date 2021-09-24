@@ -317,6 +317,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &596572329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 921830285794337200, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
+  m_PrefabInstance: {fileID: 921830286045939551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &596572334
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596572329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.1, z: 1}
+  m_Center: {x: 0.00000023841858, y: 0, z: 0}
 --- !u!1 &677065521
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,24 +461,29 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6722486609698799879, guid: 87858adc50224f04a937c707d8281ac5, type: 3}
   m_PrefabInstance: {fileID: 6722486610165459603}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1279440762 stripped
+--- !u!1 &1116231546 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 921830285264466175, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 921830285343027658, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
   m_PrefabInstance: {fileID: 921830286045939551}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1279440763
+--- !u!65 &1116231551
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279440762}
+  m_GameObject: {fileID: 1116231546}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 1, z: 1}
+  m_Size: {x: 1, y: 1.1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1279440762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 921830285264466175, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
+  m_PrefabInstance: {fileID: 921830286045939551}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1436361318 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 921830285724127437, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
@@ -479,6 +502,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1565312908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 921830286628626484, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
+  m_PrefabInstance: {fileID: 921830286045939551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1565312913
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565312908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.1, z: 1}
+  m_Center: {x: 0.00000023841858, y: 0, z: 0}
 --- !u!1 &1611933352 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1909301093942838394, guid: f43d8ff1c8ce0244b90a6fc64c80832f, type: 3}
@@ -929,6 +970,26 @@ PrefabInstance:
     - target: {fileID: 921830285264466175, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
       propertyPath: m_Name
       value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 921830285264466175, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 921830285343027658, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 921830285724127437, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 921830285794337200, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 921830286628626484, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1746cee366151184bb9eebeb0c22e80b, type: 3}
