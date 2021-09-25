@@ -2933,6 +2933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goal
       objectReference: {fileID: 0}
+    - target: {fileID: 1909301093942838661, guid: f43d8ff1c8ce0244b90a6fc64c80832f, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1909301093942838662, guid: f43d8ff1c8ce0244b90a6fc64c80832f, type: 3}
       propertyPath: m_RootOrder
       value: 2
