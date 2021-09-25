@@ -1102,6 +1102,50 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6722486609698799879, guid: 87858adc50224f04a937c707d8281ac5, type: 3}
   m_PrefabInstance: {fileID: 6722486610165459603}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &754846879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754846881}
+  - component: {fileID: 754846880}
+  m_Layer: 0
+  m_Name: Respawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &754846880
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754846879}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &754846881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754846879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.285, y: 4.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 47
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &788327012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2842,7 +2886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 730243358959174260, guid: 00de98c23f765ea439fe67aa0de4388c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.01
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 730243358959174260, guid: 00de98c23f765ea439fe67aa0de4388c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3130,6 +3174,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 622113642782016502, guid: 35c8e17642dba1b46a9bfdd42a32e2eb, type: 3}
       propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 622113642782016502, guid: 35c8e17642dba1b46a9bfdd42a32e2eb, type: 3}
+      propertyPath: m_Size.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2195659391227538564, guid: 35c8e17642dba1b46a9bfdd42a32e2eb, type: 3}
